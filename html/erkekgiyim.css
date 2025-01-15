@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'pt_sansregular'; 
+}
+header.ust{
+background:url(resimler/overlay.png),url(resimler/erkekgiyim2.webp);
+width: 100%;
+height: 100vh;
+margin:0px;
+padding: 0px;
+
+}
+header h1{
+position: relative;
+font-size:20px;
+margin-left: 30px;
+top: 50px;
+color:rgb(232, 209, 172);
+font-weight: 100;
+text-transform: uppercase;
+}
+header a{
+    color: darksalmon;
+    text-decoration: none;
+    }
+    header a:hover{
+    color:rgb(244, 121, 121);
+    font-weight: 700;
+    }
+header strong{
+color: darksalmon;
+font-weight: 700;
+
+}
+header ul{
+list-style: none;
+position: relative;
+float: right;
+right: 550px;
+top: 300px;
+}
+header ul li{
+display: block;
+padding: 30px;
+float: left;
+}
+header ul li a{
+font-size: 50px;
+font-weight: 1000;
+color:rgb(232, 209, 172);
+text-decoration: none;
+}
+header ul li a:hover{
+    color:rgb(244, 121, 121);
+
+
+
+    
+}
+header h2{
+    position: absolute;
+    top: 60px;
+    right:1035px;
+    font-size: 30px;
+    color:darksalmon;
+    font-weight: 500;
+    
+    
+    
+    
+    }
+    #foto{
+        position:absolute;
+        height:70px;
+        border-radius: 5px;
+        top: 40px;
+        left: 50px;
+    }

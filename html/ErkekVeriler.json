@@ -1,0 +1,417 @@
+
+{
+    "markalar": {
+      "Nike": {
+        "erkek": {
+          "ustgiyim": {
+            "XS": {
+              "MinGogusUst": 70,
+              "MaxGogusUst": 88,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 183
+            },
+            "S": {
+              "MinGogusUst": 88,
+              "MaxGogusUst": 96,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "M": {
+              "MinGogusUst": 96,
+              "MaxGogusUst": 104,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "L": {
+              "MinGogusUst": 104,
+              "MaxGogusUst": 112,
+              "MinBoyUzunluk": 183,
+              "MaxBoyUzunluk": 190
+            },
+            "XL": {
+              "MinGogusUst": 112,
+              "MaxGogusUst": 124,
+              "MinBoyUzunluk": 186,
+              "MaxBoyUzunluk": 192
+            },
+            "XXL": {
+              "MinGogusUst": 124,
+              "MaxGogusUst": 136,
+              "MinBoyUzunluk": 186,
+              "MaxBoyUzunluk": 192
+
+            }
+          },
+          "altgiyim": {
+            "XS": {
+              "MinKalca": 80,
+              "MaxKalca": 88,
+              "MinBel": 65,
+              "MaxBel": 73
+            },
+            "S": {
+              "MinKalca": 88,
+              "MaxKalca": 96,
+              "MinBel": 73,
+              "MaxBel": 81
+            },
+            "M": {
+              "MinKalca": 96,
+              "MaxKalca": 104,
+              "MinBel": 81,
+              "MaxBel": 89
+            },
+            "L": {
+              "MinKalca": 104,
+              "MaxKalca": 112,
+              "MinBel": 89,
+              "MaxBel": 97
+            },
+            "XL": {
+              "MinKalca": 112,
+              "MaxKalca": 120,
+              "MinBel": 97,
+              "MaxBel": 109
+            },
+            "XXL": {
+              "MinKalca": 120,
+              "MaxKalca": 128,
+              "MinBel": 109,
+              "MaxBel": 121
+            }
+          }
+        }
+      },
+      "Adidas": {
+        "erkek": {
+          "ustgiyim": {
+            "XS": {
+              "MinGogusUst": 75,
+              "MaxGogusUst": 86,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "S": {
+              "MinGogusUst": 87,
+              "MaxGogusUst": 92,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "M": {
+              "MinGogusUst": 93,
+              "MaxGogusUst": 100,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "L": {
+              "MinGogusUst": 101,
+              "MaxGogusUst": 108,
+              "MinBoyUzunluk": 180,
+              "MaxBoyUzunluk": 190
+            },
+            "XL": {
+              "MinGogusUst": 109,
+              "MaxGogusUst": 118,
+              "MinBoyUzunluk": 180,
+              "MaxBoyUzunluk": 200
+            },
+            "XXL": {
+              "MinGogusUst": 119,
+              "MaxGogusUst": 130,
+              "MinBoyUzunluk": 180,
+              "MaxBoyUzunluk": 200
+            }
+          },
+          "altgiyim": {
+            "XS": {
+              "MinKalca": 82,
+              "MaxKalca": 85,
+              "MinBel": 71,
+              "MaxBel": 74
+            },
+            "S": {
+              "MinKalca": 86,
+              "MaxKalca": 91,
+              "MinBel": 75,
+              "MaxBel": 80
+            },
+            "M": {
+              "MinKalca": 92,
+              "MaxKalca": 99,
+              "MinBel": 81,
+              "MaxBel": 88
+            },
+            "L": {
+              "MinKalca": 100,
+              "MaxKalca": 107,
+              "MinBel": 89,
+              "MaxBel": 96
+            },
+            "XL": {
+              "MinKalca": 108,
+              "MaxKalca": 116,
+              "MinBel": 97,
+              "MaxBel": 106
+            },
+            "XXL": {
+              "MinKalca": 117,
+              "MaxKalca": 125,
+              "MinBel": 107,
+              "MaxBel": 119
+            }
+          }
+        }
+      },
+      "Puma": {
+        "erkek": {
+          "ustgiyim": {
+            "XS": {
+              "MinGogusUst": 71,
+              "MaxGogusUst": 78,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "S": {
+              "MinGogusUst": 79,
+              "MaxGogusUst": 86,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "M": {
+              "MinGogusUst": 87,
+              "MaxGogusUst": 94,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "L": {
+              "MinGogusUst": 95,
+              "MaxGogusUst": 102,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "XL": {
+              "MinGogusUst": 103,
+              "MaxGogusUst": 110,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 200
+            },
+            "XXL": {
+              "MinGogusUst": 111,
+              "MaxGogusUst": 118,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 200
+            }
+          },
+          "altgiyim": {
+            "XS": {
+              "MinKalca": 77,
+              "MaxKalca": 83,
+              "MinBel": 67,
+              "MaxBel": 72
+            },
+            "S": {
+              "MinKalca": 84,
+              "MaxKalca": 90,
+              "MinBel": 72,
+              "MaxBel": 78
+            },
+            "M": {
+              "MinKalca": 91,
+              "MaxKalca": 97,
+              "MinBel": 79,
+              "MaxBel": 84
+            },
+            "L": {
+              "MinKalca": 100,
+              "MaxKalca": 107,
+              "MinBel": 89,
+              "MaxBel": 96
+            },
+            "XL": {
+              "MinKalca": 98,
+              "MaxKalca": 104,
+              "MinBel": 97,
+              "MaxBel": 106
+            },
+            "XXL": {
+              "MinKalca": 105,
+              "MaxKalca": 112,
+              "MinBel": 91,
+              "MaxBel": 98
+            }
+          }
+        }
+      },
+      "Reebok": {
+        "erkek": {
+          "ustgiyim": {
+            "XS": {
+              "MinGogusUst": 86,
+              "MaxGogusUst": 92,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "S": {
+              "MinGogusUst": 92,
+              "MaxGogusUst": 97,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "M": {
+              "MinGogusUst": 98,
+              "MaxGogusUst": 103,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "L": {
+              "MinGogusUst": 104,
+              "MaxGogusUst": 109,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "XL": {
+              "MinGogusUst": 110,
+              "MaxGogusUst": 119,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 192
+            },
+            "XXL": {
+              "MinGogusUst": 120,
+              "MaxGogusUst": 130,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 200
+            }
+          },
+          "altgiyim": {
+            "XS": {
+              "MinKalca": 80,
+              "MaxKalca": 86,
+              "MinBel": 65,
+              "MaxBel": 73
+            },
+            "S": {
+              "MinKalca": 88,
+              "MaxKalca": 96,
+              "MinBel": 74,
+              "MaxBel": 81
+            },
+            "M": {
+              "MinKalca": 97,
+              "MaxKalca": 104,
+              "MinBel": 82,
+              "MaxBel": 89
+            },
+            "L": {
+              "MinKalca": 105,
+              "MaxKalca": 120,
+              "MinBel": 90,
+              "MaxBel": 97
+            },
+            "XL": {
+              "MinKalca": 112,
+              "MaxKalca": 120,
+              "MinBel": 97,
+              "MaxBel": 109
+            },
+            "XXL": {
+              "MinKalca": 117,
+              "MaxKalca": 125,
+              "MinBel": 110,
+              "MaxBel": 121
+            }
+          }
+        }
+      },
+      "Columbia": {
+        "erkek": {
+          "ustgiyim": {
+            "XS": {
+              "MinGogusUst": 83,
+              "MaxGogusUst": 88,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 180
+            },
+            "S": {
+              "MinGogusUst": 89,
+              "MaxGogusUst": 93,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 180
+            },
+            "M": {
+              "MinGogusUst": 94,
+              "MaxGogusUst": 100,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "L": {
+              "MinGogusUst": 101,
+              "MaxGogusUst": 108,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 190
+            },
+            "XL": {
+              "MinGogusUst": 103,
+              "MaxGogusUst": 108,
+              "MinBoyUzunluk": 170,
+              "MaxBoyUzunluk": 192
+            },
+            "XXL": {
+              "MinGogusUst": 108,
+              "MaxGogusUst": 130,
+              "MinBoyUzunluk": 192,
+              "MaxBoyUzunluk": 200
+            }
+          },
+          "altgiyim": {
+            "XS": {
+              "MinKalca": 80,
+              "MaxKalca": 86,
+              "MinBel": 65,
+              "MaxBel": 73
+            },
+            "S": {
+              "MinKalca": 88,
+              "MaxKalca": 96,
+              "MinBel": 74,
+              "MaxBel": 81
+            },
+            "M": {
+              "MinKalca": 97,
+              "MaxKalca": 104,
+              "MinBel": 82,
+              "MaxBel": 89
+            },
+            "L": {
+              "MinKalca": 105,
+              "MaxKalca": 120,
+              "MinBel": 90,
+              "MaxBel": 97
+            },
+            "XL": {
+              "MinKalca": 112,
+              "MaxKalca": 120,
+              "MinBel": 97,
+              "MaxBel": 109
+            },
+            "XXL": {
+              "MinKalca": 117,
+              "MaxKalca": 125,
+              "MinBel": 110,
+              "MaxBel": 121
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+    
+
+
+
+
+
+
+
+

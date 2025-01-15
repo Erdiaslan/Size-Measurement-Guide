@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="ilkdeneme.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+<title>Beden Ölçüsü Rehberi</title>
+
+
+
+
+
+</head>
+<body>
+
+ 
+<header class="ust">
+ 
+<a href="ilkdeneme.html"> <img id="foto" src="resimler/logo.png"></a>
+<h2>Beden Ölçüm Rehberi</h2>
+<nav id="nav">
+<ul>
+<li><a href="erkekgiyim.html">Erkek Giyim</a></li>
+<li><a href="kadıngiyim.html">Kadın Giyim</a></li>
+
+
+
+</ul>
+</nav>
+<div id="adminPanel" style="display: none;">
+  <h2>Admin Panel</h2>
+  <pre id="jsonData"></pre>
+</div>
+<script> function adminLogin() {
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+  const loginError = document.getElementById("loginError");
+
+  
+  if (username === "admin" && password === "12345") {
+      fetchJsonData(); 
+  } else {
+      loginError.textContent = "Kullanıcı adı veya şifre hatalı.";
+  }
+}
+
+function fetchJsonData() {
+  fetch('ErkekVeriler.json')
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('JSON verisi yüklenemedi.');
+          }
+          return response.json();
+      })
+      .then(data => {
+          
+          const formattedData = JSON.stringify(data, null, 4);
+
+          
+          const jsonOutput = document.getElementById("jsonOutput");
+          jsonOutput.textContent = formattedData;
+
+          
+          const viewDataBtn = document.getElementById("viewDataBtn");
+          viewDataBtn.style.display = "inline-block";  
+      })
+      .catch(error => {
+          console.error("Hata:", error);
+          alert("JSON verileri yüklenemedi.");
+      });
+}
+
+function openModal() {
+  const modal = document.getElementById("jsonModal");
+  modal.style.display = "block"; 
+}
+
+function closeModal() {
+  const modal = document.getElementById("jsonModal");
+  modal.style.display = "none"; 
+}
+
+
+
+
+</script>
+<p id="admin">Admin Girişi</p>
+
+<div id="jsonModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <pre id="jsonOutput"></pre>
+  </div>
+</div>
+
+
+<button id="viewDataBtn" style="display: none;" onclick="openModal()">Verileri Görüntüle</button>
+
+
+<div id="loginForm">
+  
+  <label for="username" id="user">Kullanıcı Adı:</label>
+  <input type="text" id="username" placeholder="Admin">
+  <br>
+  <label for="password" id="user">Şifre:</label>
+  <input type="password" id="password" placeholder="Şifre">
+  <br>
+  <button onclick="adminLogin()" id="buton2">Giriş Yap</button>
+  <p id="loginError" style="color: red;"></p>
+</div>
+
+ 
+
+
+  <section id="banner">
+ 
+
+
+
+  </section>
+</header>
+<script src="java1.js"></script>
+
+
+  
+
+</body>
+
+
+</html>
